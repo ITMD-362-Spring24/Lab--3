@@ -1,0 +1,79 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  font-size: 22px;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.0;
+
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#input-email {
+  margin-top: 4%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 25px;
+}
+#email {
+  border-radius: 15px 50px;
+  padding: 3px 20px;
+  width: 86%; 
+  border: none;
+  background-color: #43F1F3;
+  font-size: 20px;
+}
+
+#input-age-verification {
+  margin-left: 17%;
+  margin-top: 2%;
+  margin-right: 17%;
+}
+
+#input-submit {
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+#submit {
+  border: none;
+  background-color: #F34543;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+@media screen and (max-width:530px) {
+  body {
+    margin:4%;
+	font-size: 15px;
+	background-color: #C66A39;
+	color:white;
+  }
+  
+  h1 {
+	font-size: 27px;
+  }
+  
+  #email {
+	  background-color: #3995C6;
+  }
+  #submit {
+	  height: 30px;
+	  margin-top: 2%;
+	  background-color: #3995C6;
+  }
+  
+  #input-age-verification {
+	  margin-top: 5%;
+  }
+}
