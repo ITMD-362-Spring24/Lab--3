@@ -1,17 +1,18 @@
 body {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 5%;
   font-size: 22px;
   font-family: 'Cabin', sans-serif;
   line-height: 1.0;
+  background-color:#148796;
 
 }
 
 p {
   text-align: center;
-  font-size: 30px;
-  margin-top: 2%;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 h1 {
@@ -29,16 +30,25 @@ h1 {
 #email {
   border-radius: 15px 50px;
   padding: 3px 20px;
-  width: 86%; 
+  width: 90%; 
   border: none;
   background-color: #43F1F3;
   font-size: 20px;
+  height: 40px;
 }
 
-#input-age-verification {
-  margin-left: 17%;
-  margin-top: 2%;
-  margin-right: 17%;
+#input-age-verification label {
+  margin-top: -19px;
+  margin-left: 20%;
+}
+
+#input-age-verification input{
+  margin-left: 15%;
+  position: relative;
+  margin-top: 10px;
+  display: block;
+  height: 15px;
+  width: 15px;
 }
 
 #input-submit {
@@ -51,6 +61,11 @@ h1 {
   background-color: #F34543;
   color: white;
   font-family: 'Roboto Mono', monospace;
+  width: 78.5%;
+  padding: 3px 20px;
+  border-radius: 15px 50px;
+  height: 50px;
+  margin-top: -8px;
 }
 @media screen and (max-width:530px) {
   body {
@@ -66,14 +81,16 @@ h1 {
   
   #email {
 	  background-color: #3995C6;
+	  height:20px;
   }
   #submit {
 	  height: 30px;
 	  margin-top: 2%;
 	  background-color: #3995C6;
+	  width: 80%;
   }
   
-  #input-age-verification {
-	  margin-top: 5%;
+  #input-age-verification label{
+	  margin-top: -12px;
   }
 }
